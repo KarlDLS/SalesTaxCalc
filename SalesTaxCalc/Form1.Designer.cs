@@ -81,6 +81,7 @@
             this.btn_CalculateTax.TabIndex = 9;
             this.btn_CalculateTax.Text = "Calculate";
             this.btn_CalculateTax.UseVisualStyleBackColor = true;
+            this.btn_CalculateTax.Click += new System.EventHandler(this.btn_CalculateTax_Click);
             // 
             // label1
             // 
